@@ -1,2 +1,2 @@
-# My Projects
-Various projects.
+# Python Games
+Various games.
