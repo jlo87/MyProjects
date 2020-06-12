@@ -1,7 +1,7 @@
-# Rock, Paper, Scissors + Sleep function to delay the computer
+# Rock, Paper, Scissors + Sleep function to delay the computer.
 
-import random, time, sys # time module for the mini pauses in the sleep function.
-						 # sys to allow player to exit the game.
+import random, time, sys # time module for the mini pauses in the sleep function,
+			 # sys to allow player to exit the game.
 
 print('ROCK, PAPER, SCISSORS')
 print('By Jonathan Lo')
@@ -20,7 +20,7 @@ while True: # The main game loop.
 		print(f'{wins} Wins, {losses} Losses, {ties} Ties')
 		print('Enter your move: (R)ock (P)aper (S)cissors or (Q)uit')
 		playerMove = input().upper() # Allows player to type either upper or lower case, 
-									 # saved to a variable called playerMove.
+					     # saved to a variable called playerMove.
 		if playerMove == 'Q':
 			sys.exit() 
 
@@ -72,7 +72,7 @@ while True: # The main game loop.
 	elif playerMove == 'SCISSORS' and computerMove == 'PAPER':
 		print('You win!')
 		wins += 1 
-	elif playerMove == 'ROCK' and computerMove == 'PAPER': # Handling loss cases
+	elif playerMove == 'ROCK' and computerMove == 'PAPER': # Handling loss cases.
 		print('You lose!') 
 		losses += 1
 	elif playerMove == 'PAPER' and computerMove == 'SCISSORS':
