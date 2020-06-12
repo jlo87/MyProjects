@@ -5,19 +5,20 @@
 import time
 indentSize = 0 # How many spaces to indent.
 
-DELAY = 0.05 # Uppercase Constant variable
+DELAY = 0.05 # Uppercase Constant variable.
+INDENT_CHARACTER = ' ' # The DELAY and INDENT_CHARACTER constants will make things easier to change on the fly.
 
 while True: # The main program loop.
 	# Zip to the right 20 times:
 	for i in range(20):
 		indentSize += 1 # Exact same as indentSize = indentSize + 1
-		indentation = ' ' * indentSize
+		indentation = INDENT_CHARACTER * indentSize
 		print(indentation + '********')
 		time.sleep(DELAY) # Pause for 50 milliseconds.
 
 	# Zag to the left 20 times:
 	for i in range(20):
 		indentSize -= 1 # Exact same as indentSize = indentSize - 1
-		indentation = ' ' * indentSize
+		indentation = INDENT_CHARACTER * indentSize
 		print(indentation + '********')
 		time.sleep(DELAY) # Pause for 50 milliseconds.
