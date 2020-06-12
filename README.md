@@ -1,2 +1,2 @@
-# zig_zag
-Shows a simple zig zag animation.
+# My Projects
+Various projects.
