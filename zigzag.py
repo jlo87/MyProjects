@@ -11,14 +11,14 @@ INDENT_CHARACTER = ' ' # The DELAY and INDENT_CHARACTER constants will make thin
 while True: # The main program loop.
 	# Zip to the right 20 times:
 	for i in range(20):
-		indentSize += 1 # Exact same as indentSize = indentSize + 1
+		indentSize += 1 # Shortcut for indentSize = indentSize + 1
 		indentation = INDENT_CHARACTER * indentSize
 		print(indentation + '********')
 		time.sleep(DELAY) # Pause for 50 milliseconds.
 
 	# Zag to the left 20 times:
 	for i in range(20):
-		indentSize -= 1 # Exact same as indentSize = indentSize - 1
+		indentSize -= 1 # Shortcut for indentSize = indentSize - 1
 		indentation = INDENT_CHARACTER * indentSize
 		print(indentation + '********')
 		time.sleep(DELAY) # Pause for 50 milliseconds.
