@@ -5,8 +5,9 @@
 import time
 indentSize = 0 # How many spaces to indent.
 
-DELAY = 0.05 # Uppercase Constant variable.
-INDENT_CHARACTER = ' ' # The DELAY and INDENT_CHARACTER constants will make things easier to change on the fly.
+# Constants:(Will make things easier to change on the fly).
+DELAY = 0.05
+INDENT_CHARACTER = ' '
 
 while True: # The main program loop.
 	# Zip to the right 20 times:
