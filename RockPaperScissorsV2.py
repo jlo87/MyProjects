@@ -11,8 +11,9 @@ elif rand_num == 1:
 	computer = "paper"
 else:
 	compter = "scissors"
-
-print(f"Computer plays {computer}" ) # f string concatenates. this string will now show computer plays
+	
+# f string concatenates. this string will now show computer plays
+print(f"Computer plays {computer}" ) 
 
 if player == computer:
 	print("It's a tie!")
